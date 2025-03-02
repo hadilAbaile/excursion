@@ -1,0 +1,66 @@
+/* Reset default body margin and padding for consistent styling across browsers */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Set background color to black */
+}
+
+/* Center the main content and apply a consistent font family */
+main {
+    font-family: Verdana, sans-serif; /* Use Verdana as the primary font, fallback to sans-serif */
+    text-align: center; /* Center-align all text within the main container */
+    margin: 0 auto 25px; /* Center the main container horizontally and add bottom margin */
+}
+
+/* Style for the heading in the first section */
+.first h1 {
+    font-weight: normal; /* Use normal font weight (not bold) */
+    font-size: 50px; /* Set a large font size for the heading */
+    color: white; /* Set text color to white */
+    margin-top: 25px; /* Add top margin for spacing */
+}
+
+/* Style for paragraphs in the first section */
+.first p {
+    margin-bottom: 25px; /* Add bottom margin for spacing after the paragraph */
+}
+
+/* Style for links within paragraphs in the first section */
+.first p a {
+    color: aquamarine; /* Set link color to aquamarine */
+    font-size: 16px; /* Set a readable font size for links */
+}
+
+/* Style for the heading in the second section */
+.second h2 {
+    font-weight: 300; /* Use a lighter font weight for a modern look */
+    font-size: 42px; /* Set a large font size for the heading */
+    color: white; /* Set text color to white */
+    margin-top: 25px; /* Add top margin for spacing */
+}
+
+/* Style for paragraphs in the second section */
+.second p {
+    font-size: 21px; /* Set a readable font size for paragraphs */
+    color: gray; /* Set text color to gray for contrast */
+    margin-top: -5px; /* Adjust top margin to reduce space after the heading */
+}
+
+/* Style for the image in the third section */
+.third img {
+    margin-top: 25px; /* Add top margin for spacing */
+}
+
+/* Style for the heading in the third section */
+.third h2 {
+    font-weight: 300; /* Use a lighter font weight for a modern look */
+    font-size: 42px; /* Set a large font size for the heading */
+    color: white; /* Set text color to white */
+    margin-top: 25px; /* Add top margin for spacing */
+}
+
+/* Style for links in the third section */
+.third a {
+    color: aquamarine; /* Set link color to aquamarine */
+    font-size: 16px; /* Set a readable font size for links */
+}

@@ -24,25 +24,46 @@
     
     <!-- Improvement: Preload critical resources for faster page loading -->
     <link rel="preload" href="/resources/css/style.css" as="style">
-    <!--<link rel="preload" href="/resources/images/hero-image.jpg" as="image">-->
+    <!-- Preload the video for better performance -->
+    <link rel="preload" href="/resources/videos/excursion.mp4" as="video">
 </head>
 <body>
     <main>
-        <section>
+        <!-- Hero section with a call-to-action -->
+        <section class="first">
             <h1>Discover hidden places in the world around you</h1>
-            <a href="#">Download Excursion(Coming soon!)</a>
+            <!-- Call-to-action button -->
+            <p><a href="#">Download Excursion (Coming soon!)</a></p>
+            <!-- 
+                Video section: 
+                - `autoplay` ensures the video starts playing automatically.
+                - `loop` ensures the video loops continuously.
+                - `muted` is required for autoplay to work in most browsers.
+                - `playsinline` ensures the video plays inline on mobile devices.
+            -->
+            <video autoplay loop muted playsinline>
+                <source src="/resources/videos/excursion.mp4" type="video/mp4">
+                <!-- Fallback message for unsupported browsers -->
+                Your browser does not support the video tag.
+            </video>
         </section>
         
-        <section>
+        <!-- Features section -->
+        
+        <section class="second">
             <h2>Your personal travel guide</h2>
             <p>Excursion remembers places you like, and recommends new points of interest around you.</p>
+            <img src="/resources/images/camp.jpg" alt="A campsite under the stars">
         </section>
         
-        <section>
+        <!-- Call-to-action section -->
+        
+        <section class="third">
+            <img src="/resources/images/phone.png" alt="Phone icon">
             <h2>Coming Soon for iPhone and Android</h2>
-            <a href="#">Download Excursion (Comming soon!)</a>
+            <!-- Call-to-action button -->
+            <a href="#">Download Excursion (Coming soon!)</a>
         </section>
-        
     </main>
 </body>
 </html>
