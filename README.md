@@ -12,7 +12,7 @@
 - [Technologies Used](#technologies-used)
 - [What I Learned](#what-i-learned)
 - [How to View the Project](#how-to-view-the-project)
-- [Credits](#credits)
+- [Live Demo](#live-demo)
 
 ---
 
@@ -59,3 +59,6 @@ To view the project, follow these steps:
 1. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/hadilAbaile/excursion.git
+
+## Live Demo
+You can view the live project here: [Excursion on GitHub Pages](https://hadilabaile.github.io/excursion)
